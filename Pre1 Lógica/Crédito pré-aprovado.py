@@ -7,9 +7,9 @@ salarioCliente = float(input(f'{nomeCliente}, agora digite aqui seu salário par
 
 if idadeCliente <=25:
         print(f'{nomeCliente}, temos um crédito pré-aprovado para você no valor de R$ {salarioCliente*0.5:.2f}')
-elif idadeCliente > 25 and idadeCliente <= 35:
+elif idadeCliente > 26 and idadeCliente <= 35:
     print(f'{nomeCliente}, temos um crédito pré-aprovado para você no valor de R$ {salarioCliente*0.75:.2f}')
-elif idadeCliente > 35 and idadeCliente <= 45:
+elif idadeCliente > 36 and idadeCliente <= 45:
     print(f'{nomeCliente}, temos um crédito pré-aprovado para você no valor de R$ {salarioCliente:.2f}')
 else:
     print(f'{nomeCliente}, favor contatar seu gerente')

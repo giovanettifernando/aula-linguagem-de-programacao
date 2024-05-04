@@ -19,3 +19,10 @@ Exemplo de Saída
 7
 '''
 
+num = int(input())
+contador = 1
+while contador <= num:
+    print(contador)
+    contador += 2
+
+
